@@ -3,6 +3,19 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header{
+        background-image: url(../Images/MountanSkyBannerImage.png);
+        z-index: 2;
+}
+
 body {
-    background-image:url(./Images/GalaxyBackground.png);
+    background-image:url(../Images/GalaxyBackground.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     }
+
+
+aside img{
+    max-width: 300px;
+    max-height: 200px;
+}
