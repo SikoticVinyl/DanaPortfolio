@@ -1,6 +1,6 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: solid red;
+    /* border: solid red;*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -37,55 +37,48 @@ aside {
     max-height: 990px;
     background-image: url(../Images/MenuBackgroundCity.png);
     background-repeat: no-repeat;
-    background-size:contain;
-    padding: 200px 10px;
+    background-size:cover;
     border: Solid #a1a6d6;
+    font-size: 130%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0 0 10px #242526, 0 0 20px #242526, 0 0 42px #242526, 0 0 82px #242526, 0 0 92px #242526;
 }
 
 aside img{
-    max-width: 300px;
+    max-width: 280px;
     max-height: 200px;
 }
 
-#btns1{
-    position: relative;
-    top: -180px;
-    left: 30px;
+aside h2{
+    text-align: center;
+    color:#a1a6d6;
+    font-size: 200%;
 }
 
-#btns2{
+.btn{
     position: relative;
-    top: -110px;
-    left: 30px;
+    top:-10px;
+    left: 50px;
 }
 
-#btns3{
+#btn1{
     position: relative;
-    top: -40px;
-    left: 30px;
+    top:15px;
+    left: 50px;
 }
 
-#btns4{
+.btnwa{
     position: relative;
-    top: 30px;
-    left: 30px;
-}
-
-#btns5{
-    position: relative;
-    top: 100px;
-    left: 30px;
-}
-.btnimg {
-    display:flex;
-    position:absolute;
-    flex-direction: column; 
-    column-gap: 0px; 
-    z-index: 2;
+    color:#a1a6d6;
+    top: -50px;
+    left: 40px;
+    z-index: 3;
     }
 
-.btnword{
-    display: flex;
-    flex-direction: column;
+.btnw{
+    position: relative;
+    color:#a1a6d6;
+    top: 50px;
+    left: 40px;
     z-index: 3;
-}
+ }
