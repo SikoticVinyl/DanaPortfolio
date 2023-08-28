@@ -1,6 +1,6 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: solid red;
+    /* border: solid red;*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -37,7 +37,7 @@ aside {
     max-height: 990px;
     background-image: url(../Images/MenuBackgroundCity.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     border: Solid #a1a6d6;
     font-size: 130%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,16 +49,28 @@ aside img{
     max-height: 200px;
 }
 
+aside h2{
+    text-align: center;
+    color:#a1a6d6;
+    font-size: 200%;
+}
+
 .btn{
     position: relative;
     top:-10px;
     left: 50px;
 }
 
+#btn1{
+    position: relative;
+    top:15px;
+    left: 50px;
+}
+
 .btnwa{
     position: relative;
     color:#a1a6d6;
-    top: -55px;
+    top: -50px;
     left: 40px;
     z-index: 3;
     }
@@ -66,7 +78,7 @@ aside img{
 .btnw{
     position: relative;
     color:#a1a6d6;
-    top: 55px;
+    top: 50px;
     left: 40px;
     z-index: 3;
  }
