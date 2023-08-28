@@ -24,19 +24,39 @@ header ul{
 body {
     background-image:url(../Images/GalaxyBackground.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
 }
 
-body section{
+main{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#aboutme{
+    position: relative;
+    right: 180px;
+    top: 15px;
+    font-size: 200%;
+}
+
+.aboutme{
+    border: solid red;
+    border-radius: 300px;
+    margin: 0px 50px;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
     max-width: 400px;
     max-height: 990px;
     background-image: url(../Images/MenuBackgroundCity.png);
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat; (may not need)*/
     background-size:cover;
     border: Solid #a1a6d6;
     font-size: 130%;
@@ -47,6 +67,11 @@ aside {
 aside img{
     max-width: 280px;
     max-height: 200px;
+    border-radius: 15px;
+}
+
+a{
+    color:#a1a6d6;
 }
 
 aside h2{
@@ -69,10 +94,8 @@ aside h2{
 
 .btnwa{
     position: relative;
-    color:#a1a6d6;
-    top: -50px;
+    top: -55px;
     left: 40px;
-    z-index: 3;
     }
 
 .btnw{
@@ -80,5 +103,4 @@ aside h2{
     color:#a1a6d6;
     top: 50px;
     left: 40px;
-    z-index: 3;
- }
+}
