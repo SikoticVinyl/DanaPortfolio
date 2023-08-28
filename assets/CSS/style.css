@@ -1,21 +1,28 @@
+:root{
+    --SB:#a1a6d6;
+}
+
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* border: solid red;*/
+    color: var(--SB);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 header{
+    margin: 30px 30px;
+    padding: 20px 20px;
+    border: solid var(--SB);
     background-image: url(../Images/MountanSkyBannerImage.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position:relative;
-    z-index: 2;
-    border: yellow;
+    z-index: 1;
     }
 
 header ul{
+    font-size: 80%;
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
@@ -25,6 +32,7 @@ body {
     background-image:url(../Images/GalaxyBackground.png);
     background-repeat: no-repeat;
     background-size:cover;
+    z-index: 0;
 }
 
 main{
@@ -53,12 +61,13 @@ main{
 aside {
     display: flex;
     flex-direction: column;
+    margin: 0px 30px;
     max-width: 400px;
     max-height: 990px;
     background-image: url(../Images/MenuBackgroundCity.png);
     /*background-repeat: no-repeat; (may not need)*/
     background-size:cover;
-    border: Solid #a1a6d6;
+    border: Solid var(--SB);
     font-size: 130%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 0 0 10px #242526, 0 0 20px #242526, 0 0 42px #242526, 0 0 82px #242526, 0 0 92px #242526;
@@ -71,12 +80,12 @@ aside img{
 }
 
 a{
-    color:#a1a6d6;
+    color: var(--SB);
 }
 
 aside h2{
     text-align: center;
-    color:#a1a6d6;
+    color: var(--SB);
     font-size: 200%;
 }
 
