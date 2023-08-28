@@ -1,4 +1,3 @@
-
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: solid red;
@@ -26,7 +25,7 @@ body {
     background-image:url(../Images/GalaxyBackground.png);
     background-repeat: no-repeat;
     background-size: contain;
-        }
+}
 
 body section{
     display: flex;
@@ -34,13 +33,13 @@ body section{
 }
 
 aside {
+    max-width: 400px;
+    max-height: 990px;
     background-image: url(../Images/MenuBackgroundCity.png);
     background-repeat: no-repeat;
     background-size:contain;
-    padding: 200px 50px;
-    border-spacing: 200px 50px;
+    padding: 200px 10px;
     border: Solid #a1a6d6;
-    
 }
 
 aside img{
@@ -48,10 +47,35 @@ aside img{
     max-height: 200px;
 }
 
-.btns{
+#btns1{
     position: relative;
+    top: -180px;
+    left: 30px;
 }
 
+#btns2{
+    position: relative;
+    top: -110px;
+    left: 30px;
+}
+
+#btns3{
+    position: relative;
+    top: -40px;
+    left: 30px;
+}
+
+#btns4{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+#btns5{
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
 .btnimg {
     display:flex;
     position:absolute;
