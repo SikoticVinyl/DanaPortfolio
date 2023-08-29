@@ -19,13 +19,28 @@ header{
     background-size: cover;
     position:relative;
     z-index: 1;
+    display:grid;
     }
 
+#H1{
+    order: 0;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+#CI{
+    order: 1;
+    align-self: flex-end;
+    justify-self: flex-start;
+}
+
 header ul{
-    font-size: 80%;
+    font-size: 100%;
     display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
+    order: 3;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-end;
     list-style-type: none;
 }
 body {
@@ -33,6 +48,10 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
     z-index: 0;
+}
+
+.glow {
+    text-shadow: 0 0 10px #242526, 0 0 20px #242526, 0 0 42px #242526, 0 0 82px #242526, 0 0 92px #242526;
 }
 
 main{
@@ -44,22 +63,27 @@ main{
     border: solid red;
     border-radius: 300px;
     margin: 0px 50px;
-    padding: 0px 20px;
+    padding: 20px 60px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
 }
 
-#aboutmeH{
-    position: relative;
-    right: 180px;
-    top: 15px;
-    font-size: 200%;
+h2 {
+    font-size: 300%;
+    padding: 10px 0px 30px 0px;
 }
 
-#aboutmeimg{
-    position: relative;
+p {
+    font-size: 23px;
+}
+
+p img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100px;
+    max-height: 200px;
 }
 
 aside {
@@ -67,15 +91,11 @@ aside {
     flex-direction: column;
     margin: 0px 30px;
     padding: 0px 40px;
-    max-width: 400px;
-    max-height: 990px;
     background-image: url(../Images/MenuBackgroundCity.png);
-    /*background-repeat: no-repeat; (may not need)*/
     background-size:cover;
     border: Solid var(--SB);
     font-size: 130%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 0 0 10px #242526, 0 0 20px #242526, 0 0 42px #242526, 0 0 82px #242526, 0 0 92px #242526;
 }
 
 aside img{
