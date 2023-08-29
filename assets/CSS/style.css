@@ -16,7 +16,7 @@ header{
     border: solid var(--SB);
     background-image: url(../Images/MountanSkyBannerImage.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position:relative;
     z-index: 1;
     }
@@ -40,13 +40,6 @@ main{
     flex-direction: row-reverse;
 }
 
-#aboutme{
-    position: relative;
-    right: 180px;
-    top: 15px;
-    font-size: 200%;
-}
-
 .aboutme{
     border: solid red;
     border-radius: 300px;
@@ -58,10 +51,22 @@ main{
     text-align: center;
 }
 
+#aboutmeH{
+    position: relative;
+    right: 180px;
+    top: 15px;
+    font-size: 200%;
+}
+
+#aboutmeimg{
+    position: relative;
+}
+
 aside {
     display: flex;
     flex-direction: column;
     margin: 0px 30px;
+    padding: 0px 40px;
     max-width: 400px;
     max-height: 990px;
     background-image: url(../Images/MenuBackgroundCity.png);
@@ -89,27 +94,18 @@ aside h2{
     font-size: 200%;
 }
 
-.btn{
-    position: relative;
-    top:-10px;
-    left: 50px;
-}
-
-#btn1{
-    position: relative;
-    top:15px;
-    left: 50px;
-}
-
 .btnwa{
+    display: flex;
+    justify-content: center;
     position: relative;
-    top: -55px;
-    left: 40px;
+    bottom: 56px;
     }
 
-.btnw{
-    position: relative;
-    color:#a1a6d6;
-    top: 50px;
-    left: 40px;
+@media screen and (max-width:1024px) {
+    aside {
+        width: 20%
+    }
+    .aboutme {
+        width: 80%
+    }
 }
