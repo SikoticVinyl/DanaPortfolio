@@ -5,27 +5,32 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--SB);
+    font-size: 20px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.glow {
+    text-shadow: 0 0 10px #242526, 0 0 20px #242526, 0 0 42px #242526, 0 0 82px #242526, 0 0 92px #242526;
 }
 
 header{
     margin: 30px 30px;
     padding: 20px 20px;
     border: solid var(--SB);
-    background-image: url(../Images/MountanSkyBannerImage.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #9C89CC;
     position:relative;
     z-index: 1;
     display:grid;
+    text-shadow: 0 0 10px #7B509B, 0 0 20px #7B509B, 0 0 42px #7B509B, 0 0 82px #7B509B, 0 0 92px #7B509B;
     }
 
 #H1{
     order: 0;
     align-self: flex-start;
     justify-self: center;
+    font-size: 300%;
 }
 
 #CI{
@@ -35,7 +40,7 @@ header{
 }
 
 header ul{
-    font-size: 100%;
+    font-size: 50%;
     display: flex;
     order: 3;
     flex-wrap: wrap;
@@ -50,40 +55,36 @@ body {
     z-index: 0;
 }
 
-.glow {
-    text-shadow: 0 0 10px #242526, 0 0 20px #242526, 0 0 42px #242526, 0 0 82px #242526, 0 0 92px #242526;
-}
-
 main{
     display:flex;
     flex-direction: row-reverse;
 }
 
 .aboutme{
-    border: solid red;
+    background-color: #674587;
     border-radius: 300px;
     margin: 0px 50px;
-    padding: 20px 60px;
+    padding: 40px 120px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
+    text-shadow: 0 0 10px #2F4395, 0 0 20px #2F4395, 0 0 42px #2F4395, 0 0 82px #2F4395, 0 0 92px #2F4395;
 }
 
 h2 {
-    font-size: 300%;
+    font-size: 200%;
     padding: 10px 0px 30px 0px;
 }
 
-p {
-    font-size: 23px;
-}
-
-p img{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100px;
-    max-height: 200px;
+#me{
+    max-width: 400px;
+    max-height: 600px;
+    order: 1;
+    justify-self: end;
+    align-self: center;
+    border-radius: 300px;
+    margin: 30px 50px 0px 50px;
 }
 
 aside {
@@ -111,7 +112,7 @@ a{
 aside h2{
     text-align: center;
     color: var(--SB);
-    font-size: 200%;
+    font-size: 100%;
 }
 
 .btnwa{
