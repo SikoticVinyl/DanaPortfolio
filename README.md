@@ -20,7 +20,7 @@ To use my portfolio, you should be able to click on the underlined text in the n
 
 Additionally, all of the little banner options under my work will have a title related to the project. When clicked it should re-direct to the deployed project it is in referance to.
 
-You can visit the deployed page here: 
+You can visit the deployed page here: https://sikoticvinyl.github.io/SikoticPortfolio/
 
 ## Features
 
