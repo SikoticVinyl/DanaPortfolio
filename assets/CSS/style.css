@@ -1,3 +1,13 @@
-#ContactMe{
+
+.PurpleBG{
     background-color: #6f56ac;
+}
+
+.glow{
+    text-shadow: 0 0 10px rgba(184, 181, 242, 0.8), 0 0 20px rgba(184, 181, 242, 0.8);
+    color: #000;
+}
+
+.backfade{
+    background-color: rgba(128, 92, 191, 0.8)
 }

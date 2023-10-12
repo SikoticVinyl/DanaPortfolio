@@ -6,10 +6,11 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
 </head>
 
-<body class="bg-gray-100 font-mono">
-    <header class="bg-blue-500 py-4">
+<body class="bg-cover bg-center bg-no-repeat bg-fixed" style="background-image: url('./assets/Images/VinylBackground.png');">
+    <header class="PurpleBG py-4">
         <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <h1 class="text-white text-3xl md:text-4xl font-bold mb-4 md:mb-0">Dana F. Portfolio</h1>
             <nav class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
@@ -22,9 +23,9 @@
     <main class="container mx-auto py-8">
         <!--About Me-->
         <section class="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8 sm:flex-col-reverse" id="AboutMe">
-            <div class="md:w-1/2">
-                <h2 class="text-2xl md:text-3xl font-semibold mb-4">About Me!</h2>
-                <p class="text-gray-700">
+            <div class="md:w-1/2 border rounded-full p-8 text-center bg-opacity-60 bg-purple-400">
+                <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center glow">About Me!</h2>
+                <p class="text-gray-700 text-center glow">
                     Hello! My name is Dana Fulmer, and welcome to my space. I am currently a bootcamp student for a fullstack web development course, so over time, many of the elements here on this site will be changing and growing as I learn and progress.
                     <br><br>
                     I am located in beautiful Southern Utah in St. George and love the area. In my free time, I can often be found on Discord, spending time with the community I have built and playing video games, or hanging out with my boyfriend and our animals (two dogs and two cats). We enjoy going bike riding when the weather is not too hot. Occasionally, I also stream on Twitch, and in the winter, I hit the mountains for some snowboarding.
@@ -36,16 +37,16 @@
             </div>
             <!--Image of me-->
             <div class="md:w-1/2">
-                <img id="me" src="./assets/Images/Dana.jpg" alt="Picture of Dana" class="w-full md:max-w-sm mx-auto">
+                <img id="me" src="./assets/Images/Dana.jpg" alt="Picture of Dana" class="w-full md:max-w-sm mx-auto rounded-full">
             </div>
         </section>
 <!--Contact Info-->
-        <section class="mt-8 " id="ContactMe">
+        <section class="mt-8 border rounded PurpleBG text-white pb-8 pt-2" id="ContactMe">
             <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center">Contact Information</h2>
-            <ul class="text-gray-700 flex flex-row justify-between">
-                <li>Phone Number - (123)456-7899</li>
-                <li>Email: <a href="mailto:DanaRFulmer@yahoo.com">DanaRFulmer@yahoo.com</a></li>
-                <li><a href="https://github.com/SikoticVinyl">GitHub</a></li>
+            <ul class="text-gray-700 flex flex-row justify-evenly">
+                <li class="text-white">Phone Number - (123)456-7899</li>
+                <li class="text-white">Email: <a href="mailto:DanaRFulmer@yahoo.com" class="hover:text-black"">DanaRFulmer@yahoo.com</a></li>
+                <li><a href="https://github.com/SikoticVinyl" class="text-white hover:text-black">GitHub</a></li>
             </ul>
         </section>
 
