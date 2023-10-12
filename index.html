@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-gray-100 font-mono">
     <header class="bg-blue-500 py-4">
         <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
             <h1 class="text-white text-3xl md:text-4xl font-bold mb-4 md:mb-0">Dana F. Portfolio</h1>
@@ -23,7 +23,7 @@
         <!--About Me-->
         <section class="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8" id="AboutMe">
             <div class="md:w-1/2">
-                <h2 class="text-2xl md:text-3xl font-semibold mb-4">About Me!</h2>
+                <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center">About Me!</h2>
                 <p class="text-gray-700">
                     Hello! My name is Dana Fulmer, and welcome to my space. I am currently a bootcamp student for a fullstack web development course, so over time, many of the elements here on this site will be changing and growing as I learn and progress.
                     <br><br>
@@ -41,8 +41,8 @@
         </section>
 <!--Contact Info-->
         <section class="mt-8" id="ContactMe">
-            <h2 class="text-2xl md:text-3xl font-semibold mb-4">Contact Information</h2>
-            <ul class="text-gray-700">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center">Contact Information</h2>
+            <ul class="text-gray-700 flex flex-row justify-between">
                 <li>Phone Number - (123)456-7899</li>
                 <li>Email: <a href="mailto:DanaRFulmer@yahoo.com">DanaRFulmer@yahoo.com</a></li>
                 <li><a href="https://github.com/SikoticVinyl">GitHub</a></li>
@@ -50,7 +50,7 @@
         </section>
 
         <section class="mt-8" id="Projects">
-            <h2 class="text-2xl md:text-3xl font-semibold mb-4">My Work</h2>
+            <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center">My Work</h2>
             <ul class="flex flex-wrap justify-between">
                 <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                     <div class="text-center relative group">
@@ -63,33 +63,59 @@
                     </div>
                 </li>
                 <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
-                    <div class="text-center">
-                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-16 h-16 mx-auto mb-2">
-                        <a class="btnwa text-blue-500 hover:underline" href="https://sikoticvinyl.github.io/AboutHoriseon/">Horiseon Re-Code</a>
+                    <div class="text-center relative group">
+                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-full h-full object-cover">
+                        <a class="btnwa text-black hover:text-purple-500 hover:underline absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition duration-300" href="https://sikoticvinyl.github.io/AboutHoriseon/">
+                            Horiseon Re-Code
+                        </a>
                     </div>
                 </li>
                 <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
-                    <div class="text-center">
-                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-16 h-16 mx-auto mb-2">
-                        <a class="btnwa text-blue-500 hover:underline" href="https://sikoticvinyl.github.io/TheCrazyPasswordGen/">The Crazy Password Generator!</a>
+                    <div class="text-center relative group">
+                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-full h-full object-cover">
+                        <a class="btnwa text-black hover:text-purple-500 hover:underline absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition duration-300" href="https://sikoticvinyl.github.io/TheCrazyPasswordGen/">
+                            The Crazy Password Generator!
+                        </a>
                     </div>
                 </li>
                 <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
-                    <div class="text-center">
-                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-16 h-16 mx-auto mb-2">
-                        <a class="btnwa text-blue-500 hover:underline" href="">Forecaster</a>
+                    <div class="text-center relative group">
+                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-full h-full object-cover">
+                        <a class="btnwa text-black hover:text-purple-500 hover:underline absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition duration-300" href="">
+                            Forecaster
+                        </a>
                     </div>
                 </li>
                 <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
-                    <div class="text-center">
-                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-16 h-16 mx-auto mb-2">
-                        <a class="btnwa text-blue-500 hover:underline" href="https://nicholasmelo.github.io/SightScene/">SightScene</a>
+                    <div class="text-center relative group">
+                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-full h-full object-cover">
+                        <a class="btnwa text-black hover:text-purple-500 hover:underline absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition duration-300" href="https://nicholasmelo.github.io/SightScene/">
+                            SIghtScene
+                        </a>
                     </div>
                 </li>
                 <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
-                    <div class="text-center">
-                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-16 h-16 mx-auto mb-2">
-                        <a class="btnwa text-blue-500 hover:underline" href="">Coming Soon!</a>
+                    <div class="text-center relative group">
+                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-full h-full object-cover">
+                        <a class="btnwa text-black hover:text-purple-500 hover:underline absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition duration-300" href="">
+                            Coming Soon!
+                        </a>
+                    </div>
+                </li>
+                <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                    <div class="text-center relative group">
+                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-full h-full object-cover">
+                        <a class="btnwa text-black hover:text-purple-500 hover:underline absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition duration-300" href="">
+                            Coming Soon!
+                        </a>
+                    </div>
+                </li>
+                <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                    <div class="text-center relative group">
+                        <img src="./assets/Images/ButtonIMG.png" alt="Stars and clouds button" class="w-full h-full object-cover">
+                        <a class="btnwa text-black hover:text-purple-500 hover:underline absolute inset-0 flex items-center justify-center opacity-80 group-hover:opacity-100 transition duration-300" href="">
+                            Coming Soon!
+                        </a>
                     </div>
                 </li>
             </ul>
